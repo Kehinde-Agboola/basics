@@ -2,3 +2,8 @@ p{
     color: blue;
     font-size: 2rem; 
 }
+
+input{
+    display: block;
+    margin: 10px 0;
+}

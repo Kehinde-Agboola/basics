@@ -1,7 +1,9 @@
 <input type="text" (keyup)="changeImage($event)" [value]="imgURL">
 
 
-<app-post [img]="imgURL"></app-post>
+<app-post [img]="imgURL" (imgSelected)="logImg($event)">
+    <p>Hello world</p>
+</app-post>
 
 <p>Hello {{name.toUpperCase()}} Welcome to the Angular world!</p>
 <p>Hello {{getName()}} Welcome to the Angular world!</p>

@@ -1,9 +1,18 @@
 p{
-    color: blue;
-    font-size: 2rem; 
+    /* color: blue; */
+    /* font-size: 2rem;  */
 }
 
 input{
     display: block;
     margin: 10px 0;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.blue{
+    background: blue;
+    color: white;
 }
